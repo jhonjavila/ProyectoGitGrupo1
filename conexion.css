@@ -3,7 +3,10 @@
 }
 
 header{
-    color:antiquewhite
+    color:antiquewhite;
+}
+body{
+    background-color: #d9dce6;
 }
 
 .navbar {
@@ -12,6 +15,7 @@ header{
     align-items: center;
     background-color: #ffff;
     padding: 10px 20px;
+    height: 53.2px;
 }
 
 .logo img {
@@ -44,7 +48,7 @@ header{
     height: 36px;
 }
 
-.button {
+.button, .bc {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -71,4 +75,41 @@ header{
 
 .button.publish:hover {
     background-color: #0056b3; 
+}
+
+.navbar .rig li {
+    display: inline-block;
+    padding-right: 15px;
+    list-style: none;
+    margin-right: 350px;
+}
+
+.bc {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.rig li {
+    color:black ;
+}
+
+.opc{
+    width: 48px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100%;
+    background-color: #222467;
+}
+
+.opc h2 {
+    padding-top: 38px;
+    padding-bottom: 23px;
+    font-size: 10px;
+    color: #b2bacd;
+}
+
+.le {
+    font-size: 18px;
+    color: #000000 ;
 }
