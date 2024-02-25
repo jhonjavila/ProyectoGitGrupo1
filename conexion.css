@@ -2,6 +2,10 @@
     background-color: white;
 }
 
+header{
+    color:antiquewhite
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
