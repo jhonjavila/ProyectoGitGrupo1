@@ -134,3 +134,17 @@ nav img{
     height: 520px;
     background-color: rgb(210, 231, 253);
 }
+.texto-inferior {
+    background-color: #f0f0f0;
+    position: absolute;
+    text-align:center; 
+    top: calc(100% + 65px); 
+    left: 265px; 
+    height: 150px;
+    padding: 10px;
+    width: 80%; 
+    color: rgb(133, 124, 113);
+    font-size:x-large;
+    line-height: 5;
+    border-top: 3px solid rgb(31, 84, 197);
+}
