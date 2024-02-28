@@ -92,6 +92,11 @@ nav img{
 .navpost{
     display: flex;
 }
+
+#navbar img:hover {
+    transform: translateY(-5px);
+
+}
 .Postnav1 {
     margin: 15px;
     color: aliceblue;
