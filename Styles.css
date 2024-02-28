@@ -66,7 +66,11 @@ header .derecha{
 }
 nav {
     width: 3%;
+<<<<<<< Updated upstream:Styles.css
     height: 800px;
+=======
+    height: 900px;
+>>>>>>> Stashed changes:Proyecto TypeScript2024-1/ProyectoTypeScriptActualizado/ProyectoGit1/TYPESCRIPTPROYECTO1/Styles.css
     background-color: rgba(49, 49, 143, 0.815);
     padding-left: 0px;
     margin-left: 0px;   
@@ -85,8 +89,13 @@ nav img{
 .Postnav{
     margin-left: 0px;
     width: 17%;
+<<<<<<< Updated upstream:Styles.css
     height: 800px;
     background-color: rgb(38, 38, 179);
+=======
+    height: 900px;
+    background-color: rgb(30, 30, 133);
+>>>>>>> Stashed changes:Proyecto TypeScript2024-1/ProyectoTypeScriptActualizado/ProyectoGit1/TYPESCRIPTPROYECTO1/Styles.css
     color: aliceblue;
 }
 .navpost{
