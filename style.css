@@ -186,7 +186,19 @@ li{font-size: 1.25em;}
    margin: 20px;
    border-radius: 15px;
  }
+.carta4{
+   
+   text-align: center;
+   padding: 50px;
+   background-color: rgba(255, 255, 255, 0.574); /* Cambio de la opacidad del fondo */
+   border-radius: 20px; /* Aumentar el radio de los bordes redondeados */
+   margin: auto; /* Centrar horizontalmente */
+   max-width: 600px; /* Limitar el ancho del contenedor para centrarlo */
+   position: relative; /* Agregar posición relativa para z-index */
+   z-index: 1; /* Asegurar que esté delante del fondo */
+   
 
+}
 
  .carta:first-child {
    background-image:linear-gradient(
