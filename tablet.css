@@ -122,7 +122,10 @@
 
 }
 
+#angel{
+    justify-content:flex-end ;
 
+}
 
 @media(min-width:1200px){
     #caracteristicas {
