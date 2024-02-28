@@ -40,7 +40,8 @@ li{font-size: 1.25em;}
 
  .container {
     max-width: 1400px;
-    margin: auto;
+    max-height: 500px;
+   
  }
  
  .color-acento {
@@ -113,6 +114,7 @@ li{font-size: 1.25em;}
     background-position: center center;
  }
 
+
  #hero h1 {
    color: aliceblue;
  }
@@ -125,8 +127,27 @@ li{font-size: 1.25em;}
 
 
  #somos-proya{
+   background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
 
- }
+    ) 
+    ,url(/img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+      text-align: center;  
+      padding: 50px;
+      background-color: rgba(238, 226, 226, 0.5); /* Cambio de la opacidad del fondo */
+      border-radius: 20px; /* Aumentar el radio de los bordes redondeados */
+      margin: auto; /* Centrar horizontalmente */
+  
+      position: relative; /* Agregar posición relativa para z-index */
+      z-index: 1; /* Asegurar que esté delante del fondo */
+  }
+  
+
  #somos-proya   .container{
    text-align: center;
    padding: 200px 12px;
@@ -174,7 +195,7 @@ li{font-size: 1.25em;}
       rgba(0,0,0,0.5)
 
     )
-    ,url(/mipagina/imagen1.jpg);
+    ,url(img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM.jpeg);
    
    
  }
